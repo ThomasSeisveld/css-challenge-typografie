@@ -4,57 +4,39 @@
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
-  /* Expletus Sans - Regular (400) */
-  font-family: 'Expletus Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Expletus Sans Regular'),
-       url('../fonts/ExpletusSans-Regular.ttf') format('truetype');
+  /* regular / 400 */
+  
+
 }
 
 @font-face {
-  /* Expletus Sans - Bold (700) */
-  font-family: 'Expletus Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Expletus Sans Bold'),
-       url('../fonts/ExpletusSans-Bold.ttf') format('truetype');
+  /* bold / 700 */
+
 }
 
 
 li:first-of-type {
-  
   padding:1em;
   overflow:auto;
 }
 
 li:first-of-type h2 {
   /* JOUW CODE HIER */
-  font-family: 'Expletus Sans', sans-serif;
-  font-weight: 700;
-  margin: 0 0 0.25em;
-  letter-spacing: -0.02em;
+  
+
 }
 
 li:first-of-type p {
   /* JOUW CODE HIER */
-  font-family: 'Expletus Sans', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1.35;
+  
+
 }
 
 /* hiermee selecteer je de eerste letter van de p in het eerste blokje */
 li:first-of-type p::first-letter {
   /* JOUW CODE HIER */
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-right: 0.12em;
-  float: left;
-  line-height: 1;
-  font-family: 'Expletus Sans', sans-serif;
+
+  
 }
 
 
@@ -67,13 +49,7 @@ li:first-of-type p::first-letter {
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
-  /* Saira Condensed Bold - used in block 2 */
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Saira Condensed Bold'),
-       url('../fonts/Saira_Condensed-Bold.ttf') format('truetype');
+  
 }
 
 
@@ -83,11 +59,8 @@ li:nth-of-type(2) {
   --color:hsl(0 0% 100%);
   --background:rgb(0 24 54);
   --shadow:Cyan;
-  font-family: 'Saira Condensed', sans-serif;
-  font-weight: 700;
-  font-size: clamp(2rem, 4vw, 3rem);
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+  
+  /* met onderstaande regels staat de tekst in het midden */
   /* en elk woord op een nieuwe regel */
   display:grid;
   grid-auto-columns:min-content;  
